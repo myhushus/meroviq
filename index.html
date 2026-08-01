@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meroviq builds focused digital products for everyday problems.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Meroviq</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipToContent">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Meroviq home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>meroviq</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#products" data-i18n="navProducts">Products</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <button id="languageToggle" class="language-toggle" type="button" aria-label="Change language">한국어</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Independent product studio</p>
+          <h1 data-i18n="heroTitle">Focused digital products for everyday problems.</h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            Meroviq designs and builds practical software with clear purpose, thoughtful interaction, and long-term usability.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#products" data-i18n="exploreProducts">Explore products</a>
+            <a class="button button-secondary" href="mailto:contact@meroviq.com" data-i18n="contactUs">Contact us</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="panel-card">
+            <span class="panel-label">MEROVIQ</span>
+            <strong data-i18n="panelTitle">Build with intention.</strong>
+            <span data-i18n="panelText">Simple ideas, carefully executed.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="productsEyebrow">Products</p>
+          <h2 data-i18n="productsTitle">Software built around real use.</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-icon">R</div>
+            <div>
+              <span class="status" data-i18n="statusInDevelopment">In development</span>
+              <h3>Remero</h3>
+              <p data-i18n="remeroDescription">
+                A people-centered connection app designed to help meaningful encounters happen.
+              </p>
+              <a href="https://remero.meroviq.com" data-i18n="learnMore">Learn more</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon">N</div>
+            <div>
+              <span class="status" data-i18n="statusInDevelopment">In development</span>
+              <h3>Numera</h3>
+              <p data-i18n="numeraDescription">
+                A local-first handwriting workspace for mathematical thinking and problem solving.
+              </p>
+              <span class="muted" data-i18n="comingSoon">More information coming soon</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+          <h2 data-i18n="aboutTitle">Small team, deliberate products.</h2>
+        </div>
+        <div class="about-copy">
+          <p data-i18n="aboutParagraphOne">
+            Meroviq is an independent software studio based in Daegu, Republic of Korea.
+          </p>
+          <p data-i18n="aboutParagraphTwo">
+            We focus on products that solve specific problems without unnecessary complexity. Our work emphasizes privacy, clarity, and sustainable product design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 data-i18n="contactTitle">Let’s build something useful.</h2>
+          <p data-i18n="contactDescription">
+            For product, partnership, licensing, or general inquiries, contact Meroviq by email.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:contact@meroviq.com">contact@meroviq.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>meroviq</strong>
+        <p data-i18n="footerLocation">Daegu, Republic of Korea</p>
+      </div>
+      <div class="footer-links">
+        <a href="./privacy/" data-i18n="privacy">Privacy</a>
+        <a href="./terms/" data-i18n="terms">Terms</a>
+      </div>
+      <p>© <span id="currentYear"></span> Meroviq</p>
+    </div>
+  </footer>
+</body>
+</html>
