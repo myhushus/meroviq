@@ -22,6 +22,6 @@ Static company website for GitHub Pages.
 
 ## Before publishing
 
-- Confirm `contact@meroviq.com` is active.
+- Confirm `remero@meroviq.com` is active.
 - Review the Privacy Policy and Terms of Use.
 - Update product descriptions and statuses when needed.
