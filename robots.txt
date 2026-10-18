@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /verification/
+Disallow: /content/
+Disallow: /scripts/
+Sitemap: https://www.meroviq.com/sitemap.xml

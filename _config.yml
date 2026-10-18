@@ -1,0 +1,7 @@
+# Keep local content sources, tooling, and QA evidence out of GitHub Pages.
+# Generated HTML and existing public URLs remain at the repository root.
+exclude:
+  - content
+  - scripts
+  - verification
+  - README.md
